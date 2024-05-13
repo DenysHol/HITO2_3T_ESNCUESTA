@@ -1,0 +1,245 @@
+[
+    {
+        "Centro": "Humanes",
+        "Grado": "DAM",
+        "Sexo": "M",
+        "Edad": 22,
+        "¿Qué redes sociales tienes?": "Instagram",
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Siempre"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "DAW",
+        "Sexo": "F",
+        "Edad": 20,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "A veces",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Casi siempre"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "ASIR",
+        "Sexo": "M",
+        "Edad": 23,
+        "¿Qué redes sociales tienes?": ["Instagram", "Twitter"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Casi siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "SMR",
+        "Sexo": "F",
+        "Edad": 21,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Nunca",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Nunca"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "DAM",
+        "Sexo": "M",
+        "Edad": 24,
+        "¿Qué redes sociales tienes?": "Instagram",
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Normalmente"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "DAW",
+        "Sexo": "F",
+        "Edad": 22,
+        "¿Qué redes sociales tienes?": ["Twitter", "Snapchat"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "ASIR",
+        "Sexo": "M",
+        "Edad": 20,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "SMR",
+        "Sexo": "F",
+        "Edad": 25,
+        "¿Qué redes sociales tienes?": ["Twitter", "Snapchat"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "A veces",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Siempre"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "DAM",
+        "Sexo": "M",
+        "Edad": 21,
+        "¿Qué redes sociales tienes?": "Instagram",
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "DAW",
+        "Sexo": "F",
+        "Edad": 23,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Nunca"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "ASIR",
+        "Sexo": "M",
+        "Edad": 22,
+        "¿Qué redes sociales tienes?": "Twitter",
+        "¿Con qué frecuencia revisas tus redes sociales?": "A veces",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Casi siempre"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "SMR",
+        "Sexo": "F",
+        "Edad": 20,
+        "¿Qué redes sociales tienes?": "Instagram",
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Normalmente"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "DAM",
+        "Sexo": "M",
+        "Edad": 24,
+        "¿Qué redes sociales tienes?": "Instagram",
+        "¿Con qué frecuencia revisas tus redes sociales?": "Casi siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "DAW",
+        "Sexo": "F",
+        "Edad": 21,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "A veces",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Nunca"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "ASIR",
+        "Sexo": "M",
+        "Edad": 25,
+        "¿Qué redes sociales tienes?": ["Instagram", "Twitter"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Siempre"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "SMR",
+        "Sexo": "F",
+        "Edad": 22,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Casi siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Casi siempre"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "DAM",
+        "Sexo": "M",
+        "Edad": 22,
+        "¿Qué redes sociales tienes?": ["Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Siempre"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "DAW",
+        "Sexo": "F",
+        "Edad": 20,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "A veces",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Casi siempre"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "ASIR",
+        "Sexo": "M",
+        "Edad": 23,
+        "¿Qué redes sociales tienes?": ["Instagram", "Twitter"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Casi siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "SMR",
+        "Sexo": "F",
+        "Edad": 21,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Nunca",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Nunca"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "DAM",
+        "Sexo": "M",
+        "Edad": 24,
+        "¿Qué redes sociales tienes?": ["Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Normalmente"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "DAW",
+        "Sexo": "F",
+        "Edad": 22,
+        "¿Qué redes sociales tienes?": ["Twitter", "Snapchat"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "ASIR",
+        "Sexo": "M",
+        "Edad": 20,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "SMR",
+        "Sexo": "F",
+        "Edad": 25,
+        "¿Qué redes sociales tienes?": ["Twitter", "Snapchat"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "A veces",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Siempre"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "DAM",
+        "Sexo": "M",
+        "Edad": 21,
+        "¿Qué redes sociales tienes?": ["Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Normalmente",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "A veces"
+    },
+    {
+        "Centro": "Getafe",
+        "Grado": "DAW",
+        "Sexo": "F",
+        "Edad": 23,
+        "¿Qué redes sociales tienes?": ["Facebook", "Instagram"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "Siempre",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Nunca"
+    },
+    {
+        "Centro": "Humanes",
+        "Grado": "ASIR",
+        "Sexo": "M",
+        "Edad": 22,
+        "¿Qué redes sociales tienes?": ["Twitter"],
+        "¿Con qué frecuencia revisas tus redes sociales?": "A veces",
+        "¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?": "Casi siempre"
+    }
+]

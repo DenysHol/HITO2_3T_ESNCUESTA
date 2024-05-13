@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Información de Usuarios</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Centro</th>
+                        <th scope="col">Grado</th>
+                        <th scope="col">Sexo</th>
+                        <th scope="col">Edad</th>
+                        <th scope="col">Redes Sociales</th>
+                        <th scope="col">Frecuencia</th>
+                        <th scope="col">Ansiedad</th>
+                    </tr>
+                </thead>
+                <tbody id="userTableBody"></tbody>
+            </table>
+        </div>
+
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.getJSON('data.json', function(data) {
+                var ansiedadCount = {
+                    'Nunca': 0,
+                    'A veces': 0,
+                    'Normalmente': 0,
+                    'Casi siempre': 0,
+                    'Siempre': 0
+                };
+
+                $.each(data, function(index, user) {
+                    var ansiedad = user["¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?"];
+                    ansiedadCount[ansiedad]++;
+                });
+
+                const ctx = document.getElementById('myChart');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: Object.keys(ansiedadCount),
+                        datasets: [{
+                            label: 'Ansiedad por redes sociales',
+                            data: Object.values(ansiedadCount),
+                            backgroundColor: [
+                                'rgba(255, 99, 132, 0.5)',
+                                'rgba(54, 162, 235, 0.5)',
+                                'rgba(255, 206, 86, 0.5)',
+                                'rgba(75, 192, 192, 0.5)',
+                                'rgba(153, 102, 255, 0.5)'
+                            ],
+                            borderColor: [
+                                'rgba(255, 99, 132, 1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(255, 206, 86, 1)',
+                                'rgba(75, 192, 192, 1)',
+                                'rgba(153, 102, 255, 1)'
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+
+                $.each(data, function(index, user) {
+                    var redesSociales = Array.isArray(user["¿Qué redes sociales tienes?"]) ? user["¿Qué redes sociales tienes?"].join(", ") : user["¿Qué redes sociales tienes?"];
+                    var row = '<tr>' +
+                                    '<td>' + user.Centro + '</td>' +
+                                    '<td>' + user.Grado + '</td>' +
+                                    '<td>' + user.Sexo + '</td>' +
+                                    '<td>' + user.Edad + '</td>' +
+                                    '<td>' + redesSociales + '</td>' +
+                                    '<td>' + user["¿Con qué frecuencia revisas tus redes sociales?"] + '</td>' +
+                                    '<td>' + user["¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?"] + '</td>' +
+                                '</tr>';
+                    $('#userTableBody').append(row);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
