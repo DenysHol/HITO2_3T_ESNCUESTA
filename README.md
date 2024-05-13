@@ -1,1 +1,1 @@
-# HITO2_3T_ESNCUESTA
+Este proyecto consiste en una encuesta en línea sobre el uso de redes sociales, que recopila datos sobre los hábitos y actitudes de los usuarios, incluyendo las plataformas utilizadas, la frecuencia de uso y la ansiedad asociada con el uso de estas redes.
